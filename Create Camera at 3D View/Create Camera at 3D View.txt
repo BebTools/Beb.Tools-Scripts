@@ -1,0 +1,28 @@
+Beb.Tools - Add Camera From View Script
+=======================================
+
+Description:
+This script adds a camera to the scene matching
+the current 3D viewport view, capturing the
+user’s perspective.
+
+Usage:
+1. Navigate to a desired view in the 3D viewport.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to add the camera.
+
+What It Does:
+- Creates a camera at the current viewport position.
+- Orients it to match the viewport’s view direction.
+
+Notes:
+- Must run from a 3D View context.
+- Matches viewport location and rotation.
+- Sets lens to approximate viewport zoom.
+- Use Undo to remove if needed.
+
+Output:
+- See console message:
+  "Camera added matching current viewport view!"
