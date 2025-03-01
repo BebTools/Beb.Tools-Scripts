@@ -1,0 +1,43 @@
+Beb.Tools - Create Bounding Boxes Script
+========================================
+
+Description:
+This script applies transforms to all objects
+in the scene. Then, it creates a bounding box
+(Empty Cube) for each mesh object using its
+Texture Space. The mesh is parented to the
+Empty, keeping its original transform and
+collections.
+
+Usage:
+1. Add mesh objects (e.g., cubes) to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Applies transforms to all scene objects.
+- For each mesh object:
+  - Creates an Empty Cube at Texture Space center.
+  - Sizes it to match Texture Space dimensions.
+  - Names it "[MeshName]_BBox".
+  - Parents the mesh to the Empty.
+  - Keeps the mesh’s transform unchanged.
+  - Returns mesh and Empty to original collections.
+  - Hides Texture Space visibility.
+
+Notes:
+- Only works on mesh objects.
+- Ignores non-mesh objects (e.g., cameras).
+- No selection needed; processes all meshes.
+- Texture Space affects box size.
+- Adjust Texture Space in mesh properties if needed.
+
+Output:
+- See console message:
+  "Transforms applied to all objects,"
+  "bounding box empties created for meshes,"
+  "meshes parented with correct size and returned"
+  "to original collections, and texture space"
+  "turned off!"
