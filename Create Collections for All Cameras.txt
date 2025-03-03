@@ -1,0 +1,34 @@
+Beb.Tools - Create Camera Collections Script
+============================================
+
+Description:
+This script creates a collection for each
+top-level camera object not already in a
+custom collection and moves it and its
+children into that collection.
+
+Usage:
+1. Add camera objects to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Deselects all objects in the scene.
+- For each top-level camera (no parent):
+  - Skips if already in a custom collection.
+  - Creates a collection "[CameraName]_Collection".
+  - Unlinks the camera and its children from Scene Collection.
+  - Links the camera and its children to the new collection.
+
+Notes:
+- Only processes top-level cameras not in custom collections.
+- Moves all child objects (any type) with their parent camera.
+- Ignores non-camera top-level objects (e.g., meshes).
+- No selection needed; processes qualifying cameras.
+
+Output:
+- See console message:
+  "Camera objects and their children organized into"
+  "collections complete!"
