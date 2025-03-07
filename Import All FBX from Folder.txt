@@ -1,0 +1,29 @@
+Beb.Tools - Import All FBX Script
+=================================
+
+Description:
+This script prompts the user to select a
+directory and imports all .fbx files from
+that directory and its subfolders into the
+scene.
+
+Usage:
+1. Open the N-Panel (press N).
+2. Go to the "Beb.Tools" tab.
+3. Select this script from the list.
+4. Click "Run" to open the file browser.
+5. Choose a directory and confirm.
+
+What It Does:
+- Opens a file browser to select a directory.
+- Imports each .fbx file from the directory and subfolders.
+
+Notes:
+- Only imports .fbx files (case-insensitive).
+- Ignores other file types.
+- Requires a directory selection to proceed.
+- Use Undo to revert if needed.
+
+Output:
+- See console message:
+  "Imported [N] .fbx files from [directory] and subfolders!"
