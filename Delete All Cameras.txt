@@ -1,0 +1,28 @@
+Beb.Tools - Delete All Cameras Script
+=====================================
+
+Description:
+This script removes all camera objects from
+the scene, leaving other object types
+untouched.
+
+Usage:
+1. Add cameras to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Identifies all camera objects in the scene.
+- Deletes each camera object completely.
+
+Notes:
+- Only affects camera objects.
+- Ignores non-camera objects (e.g., meshes).
+- No selection needed; processes all cameras.
+- Deletion is permanent; use Undo if needed.
+
+Output:
+- See console message:
+  "All cameras deleted from the scene!"

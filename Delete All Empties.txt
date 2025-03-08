@@ -1,0 +1,26 @@
+**Beb.Tools - Delete All Empties Script**  
+=====================================  
+
+**Description:**  
+This script removes all empty objects from the scene, leaving other object types untouched.  
+
+**Usage:**  
+1. Add empty objects to your scene.  
+2. Open the N-Panel (press N).  
+3. Go to the "Beb.Tools" tab.  
+4. Select this script from the list.
+5. Click "Run" to run the script.  
+
+**What It Does:**  
+- Identifies all empty objects in the scene.  
+- Deletes each empty object completely.  
+
+**Notes:**  
+- Only affects empty objects.  
+- Ignores non-empty objects (e.g., meshes, cameras).  
+- No selection needed; processes all empties.  
+- Deletion is permanent; use Undo if needed.  
+
+**Output:**  
+- See console message:  
+  "All empties deleted from the scene."  

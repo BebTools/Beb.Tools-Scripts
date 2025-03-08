@@ -1,0 +1,28 @@
+Beb.Tools - Delete All Lights Script
+====================================
+
+Description:
+This script removes all light objects from
+the scene, leaving other object types
+untouched.
+
+Usage:
+1. Add lights (e.g., Point, Sun) to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Identifies all light objects in the scene.
+- Deletes each light object completely.
+
+Notes:
+- Only affects light objects (e.g., Point, Sun).
+- Ignores non-light objects (e.g., meshes, cameras).
+- No selection needed; processes all lights.
+- Deletion is permanent; use Undo if needed.
+
+Output:
+- See console message:
+  "All lights deleted from the scene!"
