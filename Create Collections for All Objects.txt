@@ -1,0 +1,42 @@
+Beb.Tools - Create Mesh Collections Script
+==========================================
+
+Description:
+This script organizes all top-level mesh objects
+in the scene by creating a dedicated collection
+for each parent mesh. The mesh and its children
+(if any) are moved into the new collection,
+preserving their hierarchy.
+
+Usage:
+1. Add mesh objects (e.g., cubes) to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Deselects all objects in the scene.
+- For each top-level mesh object (no parent):
+  - Creates a new collection "[MeshName]_Collection".
+  - Unlinks the mesh from existing collections.
+  - Links the mesh to its new collection.
+  - Moves child objects with their parent.
+- Prints debug info to the console.
+
+Notes:
+- Only processes top-level mesh objects (no parent).
+- Child meshes stay parented and move with their parent.
+- Ignores non-mesh objects (e.g., cameras).
+- No selection needed; processes all qualifying meshes.
+- Collection names get a suffix (e.g., .001) if duplicated.
+
+Output:
+- See console message:
+  "Current scene: [SceneName]"
+  "All objects in scene:"
+  " - [ObjectName], Type: MESH, Parent: [ParentName]"
+  "Found [N] parent mesh objects"
+  "Processing mesh: [MeshName]"
+  "Created collection: [MeshName]_Collection"
+  "Mesh objects organized into collections complete!"
