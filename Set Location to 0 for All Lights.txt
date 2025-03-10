@@ -1,0 +1,28 @@
+Beb.Tools - Zero All Light Locations Script
+===========================================
+
+Description:
+This script sets the location of all light
+objects in the scene to the origin at
+(0, 0, 0) on the X, Y, and Z axes.
+
+Usage:
+1. Add light objects (e.g., Point, Sun) to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Iterates through all light objects in the scene.
+- Sets each light object’s location to (0, 0, 0).
+
+Notes:
+- Only affects light objects.
+- Ignores non-light objects (e.g., meshes, empties).
+- Only changes location; rotation and scale unchanged.
+- Use Undo to revert if needed.
+
+Output:
+- See console message:
+  "All light object locations set to (0, 0, 0)!"

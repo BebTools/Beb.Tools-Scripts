@@ -1,0 +1,28 @@
+Beb.Tools - Zero All Empty Locations Script
+===========================================
+
+Description:
+This script sets the location of all empty
+objects in the scene to the origin at
+(0, 0, 0) on the X, Y, and Z axes.
+
+Usage:
+1. Add empty objects (e.g., Plain Axes) to your scene.
+2. Open the N-Panel (press N).
+3. Go to the "Beb.Tools" tab.
+4. Select this script from the list.
+5. Click "Run" to run the script.
+
+What It Does:
+- Iterates through all empty objects in the scene.
+- Sets each empty object’s location to (0, 0, 0).
+
+Notes:
+- Only affects empty objects.
+- Ignores non-empty objects (e.g., meshes, cameras).
+- Only changes location; rotation and scale unchanged.
+- Use Undo to revert if needed.
+
+Output:
+- See console message:
+  "All empty object locations set to (0, 0, 0)!"
