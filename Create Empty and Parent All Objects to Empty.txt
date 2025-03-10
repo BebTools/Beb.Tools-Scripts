@@ -18,7 +18,7 @@ What It Does:
 - Preserves each object’s current location.
 
 Notes:
-- Affects all object types (meshes, cameras, lights, etc.).
+- Affects only Mesh Objects.
 - Clears existing parents before re-parenting.
 - New empty uses Plain Axes type.
 - Use Undo to revert if needed.
