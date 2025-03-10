@@ -1,0 +1,28 @@
+Beb.Tools - Create Empty and Parent All Objects Script
+=====================================================
+
+Description:
+This script creates an empty at (0, 0, 0)
+and parents all objects in the scene to it,
+preserving their current locations.
+
+Usage:
+1. Open the N-Panel (press N).
+2. Go to the "Beb.Tools" tab.
+3. Select this script from the list.
+4. Click "Run" to execute the script.
+
+What It Does:
+- Creates a new empty named "All_Objects_Parent" at (0, 0, 0).
+- Parents all objects in the scene to this empty.
+- Preserves each object’s current location.
+
+Notes:
+- Affects all object types (meshes, cameras, lights, etc.).
+- Clears existing parents before re-parenting.
+- New empty uses Plain Axes type.
+- Use Undo to revert if needed.
+
+Output:
+- See console message:
+  "All objects parented to new empty at (0, 0, 0)!"
